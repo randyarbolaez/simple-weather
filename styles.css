@@ -1,0 +1,40 @@
+body {
+  background: #dcdcdd;
+  font-family: 'Rock Salt', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper h1 {
+  font-size: 5.5rem;
+  color: #c5c3c6;
+  margin: 2.5%;
+}
+
+.sub-wrapper {
+  color: #1985a1;
+}
+
+.sub-wrapper h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0%;
+}
+
+.sub-wrapper #main-temperature {
+  font-size: 3.5rem;
+  margin: 5%;
+
+  text-align: center;
+}
+
+.form-wrapper input {
+  width: 10vw;
+}
